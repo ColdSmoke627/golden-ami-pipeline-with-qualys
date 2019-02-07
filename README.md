@@ -3,7 +3,7 @@
 THIS SCRIPT IS PROVIDED TO YOU "AS IS." TO THE EXTENT PERMITTED BY LAW, QUALYS HEREBY DISCLAIMS ALL WARRANTIES AND LIABILITY FOR THE PROVISION OR USE OF THIS SCRIPT. IN NO EVENT SHALL THESE SCRIPTS BE DEEMED TO BE CLOUD SERVICES AS PROVIDED BY QUALYS
 
 # Summary
-We extended AWS GOlden AMI Pipeline by working with AWS Solution Architects team to help customers detect and fix critical vulnerabilities and compliance issues in the image creation pipeline, before they reach production environments and throughout the instance lifecycle.
+We extended AWS Golden AMI Pipeline by working with AWS Solution Architects team to help customers detect and fix critical vulnerabilities and compliance issues in the image creation pipeline, before they reach production environments and throughout the instance lifecycle.
 
 AWS team documented it in their blog (https://aws.amazon.com/blogs/apn/creating-a-golden-ami-pipeline-integrated-with-qualys-for-vulnerability-assessments/), today we published it Qualys blog (https://blog.qualys.com/news/2019/02/06/assess-vulnerabilities-and-misconfigurations-in-aws-golden-ami-pipelines-with-qualys). 
 In addition, Qualys documented the approach and automation templates in Qualys Cloud Security GitHub repository, so users can easily follow the documented steps and run the cloud formation templates to setup Qualys scanning of instances in a golden AMI pipeline. 
