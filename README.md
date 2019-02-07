@@ -16,6 +16,6 @@ The information required to implement the pipeline is contained in the PDF file 
 # Pipeline Implementation Simplified Overview Steps
 1. Gather the required information outlined in "AWS Golden AMI Pipeline Reference Architecture with Qualys.pdf" and "Golden-AMI-Pipeline-Guide V1.2.docx"
 2. Run the CloudFormation Template ami_golden_ami_pipeline_qualys-vm-pc.json and enter the required information 
-3. Provide instructions for submitting candidate AMIs via the SSM Automation document created by the CloudFormation Template
+3. Provide instructions for submitting candidate AMIs via the SSM Automation document created by the CloudFormation Template to devops teams
 4. Approve / Reject candidate AMIs based off the scan findings in Qualys
 5. Approved AMIs are automatically reevaluated on the configured schedule
